@@ -10,7 +10,7 @@
       
        <h1>Registration Form</h1>
 
-      <form action="/action.php">
+      <form >
         <label>Name</label>
      <input type="text" placeholder="name" required >
 
@@ -25,9 +25,20 @@
      <input type="number"  placeholder="24" required>
 
      <br><br>
+     <label>Country:</label>
+<select name="country" required>
+    <option value="">Select Country</option>
+    <option value="India">India (+91)</option>
+    <option value="USA">USA (+1)</option>
+    <option value="UK">UK (+44)</option>
+    <option value="Canada">Canada (+1)</option>
+    <option value="Australia">Australia (+61)</option>
+</select>
+ <br><br>
 
      <lable>Telephone:</lable>
-     <input type="tel" placeholder="6958471230" required>
+     <input type="tel" placeholder="6958471230" maxlength="10" minlength="10"
+     required >
 
      <br><br>
 
