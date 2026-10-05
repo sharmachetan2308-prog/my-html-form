@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Form</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+      
+       <h1>Registration Form</h1>
+
+      <form action="/action.php">
+        <label>Name</label>
+     <input type="text" placeholder="name" required >
+
+     <br><br>
+
+     <label>Email:</label>
+     <input type="email" placeholder="xyz@gmail.com" required>
+
+     <br><br>
+     
+     <label>Age:</label>
+     <input type="number"  placeholder="24" required>
+
+     <br><br>
+
+     <lable>Telephone:</lable>
+     <input type="tel" placeholder="6958471230" required>
+
+     <br><br>
+
+
+     <label>Gender:</label>
+     <input type="radio" name="gender" value="Male">
+     <label>Male</label>
+     <input type="radio" name="gender" value="Female">
+     <label>Female</label>
+     <input type="radio" name="gender" value="other">
+     <label>Other</label> 
+     <br><br>
+
+     <label>Skills:</label>
+     <input type="checkbox" name="skill" value="java">
+     <label>Java</label>
+     <input type="checkbox" name="skill" value="html">
+     <label>Html</label>
+     <input type="checkbox" name="skill" value="c+">
+     <label>C+</label>
+
+     <br><br>
+
+     <label>Address:</label>
+     <input type="text" placeholder="village,Dis,Raj">
+     <br><br>
+
+     <label>Course:</label>
+
+     <select>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>ME</option>
+        <option>Civil</option>
+     </select>
+
+     <br><br>
+     <lable>Feedback</lable>
+     <textarea name="feedback" placeholder="please give your feedback here"> </textarea>
+
+     <br><br>
+
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
